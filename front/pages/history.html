@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navbar Template - Dark Theme</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Personaliza estilos adicionales aquí */
+        body {
+            padding-top: 60px; /* Asegura que el contenido no quede oculto detrás del navbar */
+            background-color: #212529; /* Color de fondo oscuro */
+            color: #ffffff; /* Color de texto claro */
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255,255,255,.5); /* Color de enlaces del navbar */
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #ffffff; /* Color de enlaces del navbar al pasar el ratón */
+        }
+        .jumbotron {
+            background-color: #343a40; /* Color de fondo del jumbotron */
+            color: #ffffff; /* Color de texto del jumbotron */
+        }
+        .jumbotron .btn-primary {
+            background-color: #007bff; /* Color de fondo del botón */
+            border-color: #007bff; /* Color del borde del botón */
+        }
+        .jumbotron .btn-primary:hover {
+            background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+            border-color: #0056b3; /* Color del borde del botón al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+                <!-- Puedes agregar un formulario, botón de inicio de sesión, etc., aquí -->
+            </div>
+        </div>
+    </nav>
+  
+      
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">¡Bienvenido!</h1>
+            <p class="lead">Esta es la seccion donde aprenderemos algo que no sabias sobre el cine:</p>
+            <p class="text-muted text-justify">La historia del cine es un fascinante viaje a través del tiempo, que nos lleva desde los humildes comienzos de la proyección de imágenes en movimiento hasta la sofisticada industria del entretenimiento que conocemos hoy en día. Desde sus modestos inicios en el siglo XIX hasta su evolución constante en el siglo XXI, el cine ha desempeñado un papel fundamental en la cultura mundial, influyendo en nuestras vidas de formas innumerables.
+
+                El cine tiene sus raíces en la invención del cinematógrafo por los hermanos Lumière en 1895. Este dispositivo revolucionario permitió la proyección de imágenes en movimiento en una pantalla, lo que inauguró la era del cine como una forma de entretenimiento popular. En sus primeros años, el cine era principalmente una atracción de feria, con cortometrajes que mostraban escenas cotidianas o eventos históricos.
+                
+                A medida que avanzaba el siglo XX, el cine se convirtió en una forma de arte en sí misma, con directores como D.W. Griffith y Sergei Eisenstein que exploraban nuevas técnicas narrativas y visuales. Durante la era del cine mudo, las películas se contaban principalmente a través de imágenes y música, lo que permitía una expresión artística única y emocionante.
+                
+                La llegada del sonido a finales de los años 20 cambió para siempre la industria del cine, permitiendo a los directores contar historias de una manera más realista y envolvente. Películas como "El cantante de jazz" y "Casablanca" se convirtieron en grandes éxitos, estableciendo el estándar para el cine sonoro en las décadas siguientes.
+                
+                La década de 1940 vio el surgimiento de los estudios de Hollywood como los principales productores de cine en el mundo. Películas como "Lo que el viento se llevó" y "Ciudadano Kane" se convirtieron en clásicos instantáneos, definiendo el cine de la época y dejando un legado duradero en la historia del cine.
+                
+                En las décadas siguientes, el cine experimentó una serie de cambios radicales, desde la introducción del cine en color hasta la llegada de los efectos especiales digitales. Películas como "Star Wars" y "Jurassic Park" demostraron el poder del cine para transportar al público a mundos imaginarios y desafiar los límites de la creatividad humana.
+                
+                Hoy en día, el cine es una industria global que genera miles de millones de dólares en ingresos cada año. Desde las superproducciones de Hollywood hasta el cine independiente, hay una amplia variedad de películas disponibles para satisfacer todos los gustos y preferencias. El cine también ha evolucionado para adaptarse a las nuevas tecnologías, con la llegada de la proyección digital y la realidad virtual que ofrecen nuevas formas de experimentar las películas.
+                
+                Pero más allá de su éxito comercial, el cine sigue siendo una forma de arte poderosa que puede informar, educar y entretener al público de todo el mundo. Desde las historias épicas de amor y aventura hasta los dramas íntimos y las comedias ligeras, el cine tiene el poder de inspirar emociones profundas y conectar a las personas de todas las culturas y orígenes.
+                
+                En resumen, la historia del cine es un viaje increíble que ha visto la evolución de una forma de entretenimiento humilde a una industria global multimillonaria. A lo largo de los años, el cine ha seguido cautivando a audiencias de todas las edades y continúa siendo una parte integral de nuestra cultura y sociedad.
+                
+                </p>
+            <hr class="my-4">
+            <p>Puedes agregar más contenido aquí.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Más información</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
